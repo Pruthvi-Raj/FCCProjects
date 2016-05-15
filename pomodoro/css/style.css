@@ -1,0 +1,54 @@
+body {
+  color: #000080;
+  background-color: white;
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+  /* Rules below not implemented in browsers yet */
+  -o-user-select: none;
+  user-select: none;
+}
+
+#fccTitle {
+  font-family: 'Rancho', cursive;
+  font-weight: bold;
+  font-size: 9em;
+  color: #000080;
+}
+
+.sub {
+  font-size: 25px;
+}
+
+@media(max-width: 767px) {
+  #fccTitle {
+    font-size: 5em;
+  }
+}
+
+#timerButtons {
+  padding: 10px;
+  font-size: 2em;
+}
+
+.time {
+  color: #000080;
+}
+
+.number-change {
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+#timerDisplay {
+  padding: 10px;
+}

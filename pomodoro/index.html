@@ -1,0 +1,51 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Rancho' rel='stylesheet' type='text/css'>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+    </head>
+    <body>
+        <div class="container">
+            <div class="row" id="fccTitle">
+                <div class="col-xs-12 text-center">Pomodoro Timer</div>
+            </div>
+            <div class="row" id="timerButtons">
+                <div class="col-xs-6 text-center">
+                    <p>BREAK LENGTH</p>
+                    <button type="button" class="number-change" id="break-plus">+</button>
+                    <span class="time" id="break-len">5</span>
+                    <button type="button" class="number-change" id="break-minus">-</button>
+                </div>
+                <div class="col-xs-6 center-block text-center">
+                    <p>SESSION LENGTH</p>
+                    <button type="button" class="number-change" id="session-plus">+</button>
+                    <span class="time"  id="session-len">25</span>
+                    <button type="button" class="number-change" id="session-minus">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <canvas id="circle" width="300" height="300"></canvas>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 text-center" id="timerDisplay">
+                    <span class="h1" id="session-or-break"></span><span class="h1" id="sep"></span>
+                    <span class="h1" id="current-time"></span>
+                </div>
+            </div>
+        </div>
+        <script src="js/jquery-2.2.2.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
